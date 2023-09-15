@@ -1,0 +1,52 @@
+* {
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 100px;
+    background-color: #f2edf3;
+    overflow-x: hidden;
+}
+
+.btn-circle {
+    color: black;
+}
+
+.btn-circle :hover {
+    color: #007bff;
+    transition: 0.1s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-select {
+    height: 50px;
+    max-width: 100px;
+    width: 100%;
+    border-radius: 0.5rem;
+    border-color: #e6e6e6;
+    box-shadow: none;
+}
+
+.form-control {
+    height: 50px;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    border-color: #e6e6e6;
+}
